@@ -1,0 +1,18 @@
+{
+  "name": "plawywrightexcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:excel": "playwright test tests/read-recent-excel.spec.ts --project=chromium"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}
